@@ -1,15 +1,142 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
 
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>cdd_flark001</title>
 	<meta name="generator" content="TextMate http://macromates.com/">
 	<meta name="author" content="Mike Birkhead">
 	<!-- Date: 2011-07-12 -->
+	<title>cdd_flark001</title>
+	<link href="stylesheets/blueprint/screen.css" media="screen" rel="stylesheet" type="text/css" >
+	<link href="stylesheets/blueprint/print.css" media="print" rel="stylesheet" type="text/css" >
+	<!--[if lt IE 8]><link href="/stylesheets/blueprint/ie.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+	<link href="stylesheets/custom.css" media="screen" rel="stylesheet" type="text/css" >
+	<script type="text/javascript">
+	<!--
+	    function toggle_visibility(id) {
+	       var e = document.getElementById(id);
+	       if(e.style.display == 'block')
+	          e.style.display = 'none';
+	       else
+	          e.style.display = 'block';
+	    }
+	//-->
+	</script>
 </head>
 <body>
-<h1 id="cdd">Concept Design Document</h1>
+<h1 id="top">Conceptual Design Document</h1>
+<div class="container">
+	<div class="span-20 prepend-2 append-2 last">
+		<h2>Table of Contents</h2>
+		<ul>
+			<li><a href="#overview">Overview</a></li>
+			<li><a href="#setting">Setting</a></li>
+			<li><a href="#controls">Controls</a></li>
+			<li><a href="#player">Player</a></li>
+			<li><a href="#world">World</a></li>
+		</ul>
+		
+		<h1 id="overview">Overview</h1>
+		<div>
+			<p class="pull-2 info" onclick="toggle_visibility('overview_info');">+</p>
+			<p id="overview_info" class="info" style="display: none;">The basic overview of the project. Sell me on the idea in as few a words as possible.</p>
+			<p><tag>{Game: the Verbing Noun}</tag> is a single player action adventure game set in the Hyborian Age, and is based upon the characters and universe created by Robert E. Howard. The player controls Conan the Barbarian during the years before he became king. The player starts his adventure in the simplest of terms, as a thief, but soon becomes embroiled in an adventure that spans the entirety of Hyboria; and, in good Conan fashion, will involve the fate of the world in the hands of one who wants nothing to do with it.</p>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		</div>
+		<h1 id="setting">Setting</h1>
+		<div>
+			<p class="pull-2 info" onclick="toggle_visibility('setting_info');">+</p>
+			<p id="setting_info" class="info" style="display: none;">The basic setting of the project. Paint me a picture of the world. Where are we going? You are not writing the next Song of Ice and Fire; just get the reader interested.</p>
+			<blockquote><p>Know, O prince, that between the years when the oceans drank Atlantis and the gleaming cities, and the years of the rise of the sons of Aryas, there was an Age undreamed of, when shining kingdoms lay spread across the world like blue mantles beneath the stars ... Hither came Conan, the Cimmerian, black-haired, sullen-eyed, sword in hand, a thief, a reaver, a slayer, with gigantic melancholies and gigantic mirth, to tread the jeweled thrones of the Earth under his sandaled feet. -- The Nemedian Chronicles</p></blockquote>
+			<p>This game takes place during the Hyborian Age. Specifically, during the age of The Hyborian Kingdoms (circa 14,000 – 10,000 BC). The kingdoms of the world are clearly defined. The kingdoms of the Hyborians - Aquilonia, Nemedia, Brythunia, Hyperborea, Koth, Ophir, Argos, Corinthia and the Border Kingdom - dominate the Western world. Zamora lies to the East, Zingara to the Southwest of these. Far to the South sleeps Stygia, untouched by foreign invasions, though the peoples of Shem have exchanged the Stygian yoke for the less galling one of Koth. The Stygians have been driven South of the great river Styx, also called Nilus or Nile, which empties into the Western Sea. North of Aquilonia are the Cimmerians, ferocioius savages untamed by any invaders. Descended from the ancient Atlanteans, they are progressing more rapidly than their old enemies, the Picts, who dwell in the wilderness West of Aquilonia.</p>
+			<p>Another five centuries and the Hybori peoples are the possessors of a virile civilization, whose most powerful kingdom is Aquilonia, though others vie with it in strength and splendor. They are the supreme in the Western world. In the North, however, golden-haired, blue-eyed barbarians have driven the remaining Hyborian tribes out of all the snow-countries except Hyperborea. Their land is known as Nordheim, and they are divided into the red-haried Vanir and the yellow-haired Aesir. Now the Lemurians enter history again, as Hyrkanians. Pushing westward, one tribe establishes the kingdom of Turan on the Southwestern shore of the inland Vilayet Sea. Later, other Hyrkanian clans push westward around that sea's northern extremity.</p>
+			<p>Glancing briefly at the peoples of that age. The dominant Hyborians are no longer uniformly twany-haired and grey-eyed; they have mixed with other races, but this mixing has not weakened them. The Shemites are men of medium height with hawk noses, dark eyes and blue-black beards. The ruling classes of Stygia are tall men, dusky and straight-featured. The Hyrkanians are dark and generally tall and slender. The people of Nordheim retain their light skin, blue eyes and red or yellow hair. The Picts are the same type as they always were; short, very dark with black eyes and hair. The Cimmerians are tall and powerful, with dark hair and blue or grey eyes. South of Stygia are the vast black kingdoms of the Amazons, the Kushites, the Atlaians and the hybrid empire of Zembabwei. Between Aquilonia and the Pictish wilderness lie the Bossonian Marches, peopled by descendents of an aboriginal race mixed with Hyborians. They are stubborn fighters and great archers, as they must be to have survived centuries of warfare with the barbarians to the North and West.</p>
+			<p>This, then, was an "Age Undreamed Of", when shining kingdoms lay spread across the world like blue mantles beneath the stars.</p>
+			<p>This, then, <em>was the age of Conan</em>.</p>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		</div>
+		<h1 id="controls">Controls</h1>
+			<p class="pull-2 info" onclick="toggle_visibility('controls_info');">+</p>
+			<p	id="controls_info" class="info" style="display: none;">The basic controls. Kept brief. This provides a quick roadmap for the rest of the conversation. It's like looking up at the reader and going, "Hey, yes this is a game, and yes I've though it through"</p>
+			<p style="text-align: center;"><img src="images/info_big.png" /></p>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		<h1 id="player">Player</h1>
+		<div>
+			<p class="pull-2 info" onclick="toggle_visibility('player_info_01');">+</p>
+			<p id="player_info_01" class="info" style="display: none;">A brief description of the tools we provide the player; paint in broad strokes, not detail</p>
+			<p>The player is comprised of 4 major systems: Combat, Interaction, Inventory, and Experience. The primary goal of this game, of any action adventure game, is to provide the player with a feeling of accomplishment. This accomplishment emerges from the conflict between the environment (the world and cast) and the player; the gameplay, then, involves letting the player resolve this conflict through the tools we provide to the player. These are his tools.</p>
+			<h2>Combat</h2>
+			<p>Combat in <tag>{Game: the Verbing Noun}</tag> is melee focused. Our player is a thief, a brigand, but do not mistake him for being weak. He fights monsters, demons, and men; avoids traps, disarms traps, and lays traps; and sometimes, he chooses not to fight at all. To him, riches aren't worth a thing to a man not alive to spend them.</p>
+			<p>Like all great thieves, he is proficient in many of the ways of war, but he has his special lady. His one and only. <tag>{SpecialWeapon}</tag>.</p>
+			<blockquote><p><tag>{SpecialWeapon}</tag> was no ordinary dagger. It was forged eons ago by <tag>{OldOnes}</tag> for <tag>{PriestlyOrder}</tag>, as a reward for their many bountiful sacrifices. It drank the blood of many virgins, and gave unto its owner, <tag>{StupidPriest}</tag>, many fat years; until, lazy and complacent, it slipped through his fingers and found its way into the hands of our fair thief. Found, obviously, being thief-speak for stolen.</p></blockquote>
+			<p class="pull-2 notice" onclick="toggle_visibility('player_notice_01');">+</p>
+			<p id="player_notice_01" class="notice" style="display: none;">Provide just enough flair to get me excited, but do not overstay your welcome. This isn't a creative writing essay. I also like, as above, to clearly mark the times where I am stepping "into world." The majority of your CDD should be focused entirely on painting me a picture of the game's systems. You are talking to a developer not a player, and your job is to give people a competent grasp of where we are headed. This doesn't require nearly as much "fluff" as you might think.</p>
+			<p>Besides <tag>{SpecialWeapon}</tag>, our hero will come across other one-handed and two-handed weapons over the course of his adventures. These weapons, unlike <tag>{SpecialWeapon}</tag>, are found, purchased, upgraded, and eventually replaced throughout your travels. Combat can be broken down into three states: swords, sorcery, and traversal.</p>
+			<ul>
+				<li>
+					<h3>Swords</h3>
+					<p>When the player is not climbing on something, interacting with something, or calling upon some dark <tag>{OldOne}</tag> to do his bidding, he is in melee mode. The player always carries <tag>{SpecialWeapon}</tag>, but he may also carry 3 other weapons (@more: <a href="#">Inventory</a>). The other weapons you can carry are broken up into 3 categories: one handed, two handed, or thrown.</p>
+					<p><strong>One Handed</strong>: Most weapons will fall into this category. These weapons, like swords, provide the player with the greatest balance between offense and defense. They can strike from a decent distance, while still maintaining a good level of mobility. The player should feel nimble, but that doesn't mean that he goes flipping all over the place. He is a thief, but not an acrobat. No one handed weapon should have fewer than a 3 hit combo.</p>
+					<p class="pull-2 info" onclick="toggle_visibility('player_info_02');">+</p>
+					<p id="player_info_02" class="info" style="display: none;">Do not describe every single type of weapon; that is an impossible and useless task at this stage. Allow yourself the freedom to change your mind (as you will a million times). The more general you stay, the less work create for yourself later.</p>
+					<p><strong>Two Handed</strong>: trading speed for power, the two handed weapons, like claymores, are about bashing something until it stops moving (and then maybe hitting it one more time). The player should heave, not struggle, with weapons of this kind (he's not a powerhouse, but he's also not a weakly), and the general feeling should be one of <em>weight</em>. No two handed weapon should have more than a 3 hit combo.</p>
+					<p class="pull-2 notice" onclick="toggle_visibility('player_notice_02');">+</p>
+					<p id="player_notice_02" class="notice" style="display: none;">These sections are not for programmers, so you avoid harsh discussions of implementation. You will notice, however, that I talk of how many hits in the combos. This looks like programmer talk, but it is really designer talk; it looks very alike, and until you become versed in the parlance of your particular genre, it is best avoided. I have included it, though, to show precisely how I would do this.</p>
+					<p><strong>Thrown</strong>: one handed weapons have speed, two handed weapons have power, but thrown weapons provide range. You cannot carry very many, but they will provide quick bursts of tactical advantage to the player.</p>
+				</li>
+				<li>
+					<h3>Sorcery</h3>
+					<p>The <tag>{OldOnes}</tag> do not always come when one calls, but if you know the right words, in the right order, and with the right gifts, you can turn the tides of battle. Sorcery in <tag>{Game: the Verbing Noun}</tag> is the player's get out of jail free card. Incredibly powerful, but supply constrained.</p>
+					<p>Throughout the adventure you will learn the right words of power and the right dark names to call, which will grant you access to three powerful spells. <tag>{SpecialWeapon}</tag> drinks the blood of the fallen (they weren't using it anyway, right?), and with this blood the weapon grants you the power to call upon the <tag>{OldOnes}</tag> for help.</p>
+					<p><tag>{OldGod1}</tag>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p><tag>{OldGod2}</tag>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p><tag>{OldGod3}</tag>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</li>
+				<li>
+					<h3>Traversal</h3>
+					<p>Our hero is a thief. Thieves live in a different world than the rest of us. A taller world, a world of climbing and swinging; where we see a light in a far window, they see a portal to riches.</p>
+					<p>In {Game: the Verbing Noun} traversal is just as much a part of the game as Combat. Traversal will be covered in more depth shortly, but the goal of this game is not to starkly contrast these two modes. The goal is to incorporate both modes. There are moments of intense combat, moments of intense traversal, and moments where you do both. Certain traversal types will have their own combat trees, though the only weapon you are allowed you use is {SpecialWeapon}. This is done to greatly reduce the necessary actions and reactions necessary. The following is the list of “combat” traversal modes:</p>
+					<ul>
+						<li>Climbing</li>
+						<li>Edge Hanging</li>
+					</ul>
+				</li>
+			</ul>
+			<h2>Interaction</h2>
+			<p>Challenging the mind of the player is just as important as challenging their fingers, and we provide this challenge through puzzles in the world. Puzzles help to break up the gameplay in interesting ways, and puzzles are only puzzles when they require action from the player. This is only possible when the player is able to interact with the world. There are two major types of interactions with the world: Manipulation and Traversal.</p>
+			<ul>
+				<li>
+					<h3>Manipulation</h3>
+					<p>Manipulations are always activated by a precise button input, and when the player is in manipulation mode, he cannot perform any combat functions until he exits the mode.</p>
+					<p><ul>
+						<li>Plates</li>
+						<li>Cranks</li>
+						<li>Levers</li>
+					</ul></p>
+				</li>
+				<li>
+					<h3>Traversal</h3>
+					<p>Traversal, unlike manipulations, are not always driven off a button input, and can also be activated simply by the player moving into close proximity to a surface. What's more, most traversal modes have their own combat graphs and moves.</p>
+					<p><ul>
+						<li>Walls</li>
+						<li>Edges</li>
+						<li>Poles</li>
+						<li>Columns</li>
+					</ul></p>
+				</li>
+			</ul>
+			<h2>Inventory</h2>
+			<h2>Experience</h2>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		</div>
+		<h1 id="world">World</h1>
+		<div>
+			<p class="info">Here we discuss the basic make up of the world. Please note: this does not mean setting. This is about crafting the world, and what tools we need to make it.</p>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		</div>
+
+	</div>
+</div>
 </body>
 </html>
