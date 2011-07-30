@@ -1,0 +1,304 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Mike Birkhead">
+	<!-- Date: 2011-07-12 -->
+	<title>cdd_flark001</title>
+	<link href="stylesheets/blueprint/screen.css" media="screen" rel="stylesheet" type="text/css" >
+	<link href="stylesheets/blueprint/print.css" media="print" rel="stylesheet" type="text/css" >
+	<!--[if lt IE 8]><link href="/stylesheets/blueprint/ie.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+	<link href="stylesheets/custom.css" media="screen" rel="stylesheet" type="text/css" >
+	<script type="text/javascript">
+	<!--
+	    function toggle_visibility(id) {
+	       var e = document.getElementById(id);
+	       if(e.style.display == 'block')
+	          e.style.display = 'none';
+	       else
+	          e.style.display = 'block';
+	    }
+	//-->
+	</script>
+</head>
+<body>
+<h1 id="top">Conceptual Design Document</h1>
+<div class="container">
+	<div class="span-20 prepend-2 append-2 last">
+		<h1>Table of Contents</h1>
+		<ul>
+			<li><a href="#overview">Overview</a></li>
+			<li><a href="#core">Core</a></li>
+			<li><a href="#setting">Setting</a></li>
+			<li><a href="#controls">Controls</a></li>
+			<li><a href="#player">Player</a></li>
+			<li><a href="#cast">Cast</a></li>
+			<li><a href="#world">World</a></li>
+		</ul>
+		
+		<h1 id="overview">Overview</h1>
+		<div>
+			<p class="info">The basic overview of the project. Sell me on the idea in as few a words as possible.</p>
+			<p><tag>{Game: the Verbing Noun}</tag> is a single player action adventure game set in {FamousSetting}. The game takes the visceral action of games such as {Some Action Game}, mixes it with style switching from games such as {Some Other Action Game}, and finishes it with {buzzword} from modern games such as {Popular Franchise}. All of this is mixed with both world class art and tech to create a game that is as brutal as it is beautiful.</p>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		</div>
+		<h1 id="setting">Setting</h1>
+			<p class="pull-2 info" onclick="toggle_visibility('setting_info');">+</p>
+			<p id="setting_info" class="info">The basic setting of the project. Paint me a picture of the world. Where are we going? You are not writing the next Song of Ice and Fire; just get the reader interested.</p>
+			<p>This game takes place in {FamousSetting}. Specifically, during the age of {FamousHero}. The kingdoms of the world are clearly defined. The kingdoms of the {World} - {Culture01}, {Culture02}, {Culture03}, {Culture04}, {Culture05}  - dominate the Western world, while the lesser known and barbarous people of the East remain locked in darkness.</p>
+			<p>The {FamousSetting} peoples are the possessors of a virile civilization, whose most powerful kingdom is {Culture01}, though others vie with it in strength and splendor. {Culture02} and {Culture03} are locked in a struggle in the south, while {Culture04} lays claim to the north and does its best to stay out of the affairs of everyone else.</p>
+			<p>Many years ago {SomethingBadHappened}, but everyone promptly forgot about it, because that’s what people do. I’m sure things are fine, though. No really. I’m sure nothing at all could possibly go wrong. {AncientEvil} was definitely destroyed, and it won’t be bothering anyone ever again.</p>
+			<p>Or not...</p>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		<h1 id="core">Core</h1>
+			<p class="info">This short little section is one of the most important pieces of your entire document. This is why you are here. These features / ideas / mechanics / whatever. Everyone on the team must know what they are, because every part of the game exists to showcase these pillars. If you can imagine the game without something (be honest) then it is not Core to the experience. Think hard. Be honest. But do not freak out, as I can guarantee you will be wrong, more than once. Being wrong is ok; not caring or even considering the core of your experience is NOT ok.</p>
+			<p>The core of a game comprises pillars. Each pillar is a stated goal for the game, which means it can be a single mechanic, or it can be several mechanics, as long as they all focus on achieving that pillar’s goal. </p>
+			<p>Two things separate the good games from the great games. First, providing challenging and tight moment to moment scenarios. Second, crafting a believable world and allowing the player to not just witness the world but become a part of that world. Our first two pillars deal with the moment to moment, and our last pillar deals with the big picture.</p>
+			<p>Form Switching Combat - our main pillar is that of our player’s weapon, {SpecialWeapon}. We can cut traversals, we can cut interactions, we can cut cinematic, but we cannot cut this. Our goal is a 3 style combat tree that allows free form transitions, while not overwhelming them with choice and not underwhelming them with function. Most style (or weapon) switching combat systems leave the player asking “why”, and for good reason. We shall escape this by creating enemies that enforce certain forms.</p>
+			<p>Form World Interaction - the player must face challenges that do not involve combat. Otherwise, because there is marginal utility and diminishing returns on beating up AI opponents, the player will become bored. That is not all, though; as we stated above, the goal of the styles is to enforce the meaning of three styles, so we want to achieve this through our world interactions as well. Each style, in some way, shall be able to interact with the world in some way, which shall be incorporated into the level designs.</p>
+			<p>Forms As History - this weapon is not just a weapon, it is the fused souls of long dead generals, and the the player is not simply using a weapon that changes shape, he is merging with their spirits and becoming them. This shall be sold in the look of the forms, in the look of the weapons, in random moment to moment dialog, and in major cutscences.</p>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		<h1 id="controls">Controls</h1>
+			<p class="info">The basic controls. Kept brief. This provides a quick roadmap for the rest of the conversation. It's like looking up at the reader and going, "Hey, yes this is a game, and yes I've though it through"</p>
+			<p style="text-align: center;"><img src="images/info_big.png" /></p>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		<h1 id="player">Player</h1>
+			<p class="info">A brief description of the tools we provide the player; paint in broad strokes, not detail</p>
+			<p>The player is comprised of 3 major systems: Combat, Interaction, and Experience. The primary goal of this game, of any action adventure game, is to provide the player with a feeling of accomplishment. This accomplishment emerges from the conflict between the environment (the world and cast) and the player; the gameplay, then, involves letting the player resolve this conflict through the tools we provide to the player. These are his tools.</p>
+			<h2>Combat</h2>
+			<p>Combat in {Game: the Verbing Noun} is melee focused. Our player is a thief, a brigand, but do not mistake him for being weak. He fights monsters, demons, and men; avoids traps, disarms traps, and lays traps; and sometimes, he chooses not to fight at all. To him, riches aren't worth a thing to a man not alive to spend them.</p>
+			<p>Like all great thieves, he is proficient in many of the ways of war, but he has his special lady. His one and only. {SpecialWeapon}.</p>
+			<blockquote><p>{SpecialWeapon} is no ordinary dagger. It was forged by {DeadCivilization}  at the height of their power, before {SomeCatastrophe}. Through the power of ancient rights, it was fused with the souls of 3 great {DeadCivilization} generals, and the possessor of {SpecialWeapon} is granted not only their vast knowledge, but also their power.</p></blockquote>
+			<p>The player may switch between the three souls of the great Generals, which will each grant a unique boon to the player; additionally, the form and function of {SpecialWeapon} changes when you accept the power of a General, so that it can greater fit into their unique style.</p>
+			<p>Every Soul (and the unique weapon it confers), regardless of form, makes use of the same basic player controls, so that switching between souls does not confuse the player. The properties may alter, but the basic functions will always remain the same. First we will cover the basic controls. Second we will cover the 3 forms the player can take. Third we will cover the form transitions. Everything covered will be in brief, for more information please see the specific combat documents. (@see: Forms)</p>
+			<h3>Basic Controls</h3>
+			<p>Basic combat involves two shoulder buttons (blocking and form transitions) and four face buttons (@see: Controls):</p>
+			<ul>
+				<li>{BlockButton} = The player can block at any time, as we allow pre-hit frame block cancelling.</li>
+				<li>{WeakAttackButton} = Quick moves that can be chained into combos.</li>
+				<li>{StrongAttackButton} = Heavy finisher moves that are slower.</li>
+				<li>{SpecialButton} = Form specific special moves. (more info below)</li>
+				<li>{JumpButton} = The player can block at any time, as we allow pre-hit frame jump cancelling in this game.</li>
+				<li>{TransitionButton} = This button, when combined with another attack button, allows the player to transition souls. This action is bufferable, but not immediate, as it is a post-hit frame cancel.</li>
+			</ul>
+			<h3>Speed Form</h3>
+			<p>This is the first form you have, and it is how you start the game. Your mobility is increased while in this form, but you lack the power or range of the other forms.</p>
+			<h3>Power Form</h3>
+			<p>This is the second form you get. Your movement is greatly reduced, but your defense and power go way up.</p>
+			<h3>Range Form</h3>
+			<p>This is the last form you acquire. While in this form you lack either the power or mobility of the other forms, but you more than make up for them in the vast magical power you gain through this General.</p>
+			<h3>Form Transitions</h3>
+			<p>It is not only the power that each form conveys to the player that will win you battles, but also how you choose to combine their powers. At any time, the player may switch forms by holding down {TransitionButton} and pressing one of three face buttons.</p>
+			<ul>
+				<li>{TransitionButton} + {WeakAttackButton} = Speed Mode</li>
+				<li>{TransitionButton} + {StrongAttackButton} = Power Mode</li>
+				<li>{TransitionButton} + {SpecialButton} = Range Mode</li>
+			</ul>
+			<p>As stated the player is free to do this at any time, even during combos or after activating one of the three special powers. This means that you can be in Speed form, activate its special power (time slow), immediately switch to Power form, and then due to the time slowing effect, mitigate the great weakness of Power which is the lack of speed.</p>
+			<p>That is not all, though, as you can also perform Combo Transitions, by switching forms during a combo. The specifics of this is discussed in further detail in the Soul Forms document (@see: Forms).</p>
+			
+			<h2>Interaction</h2>
+			<p>Challenging the mind of the player is just as important as challenging their fingers. Puzzles, either alone or mixed with combat, are one of the great ways to break up the monotonous flow of the game. But puzzles are only puzzles when they require action from the player, and it is only possible when the player is able to interact with the world. There are two major types of interactions with the world: Manipulation and Traversal.</p>
+			<h3>Manipulation</h3>
+			<p>Manipulations are always activated by a precise button input, and when the player is in manipulation mode, he cannot perform any combat functions until he exits the mode.</p>
+			<ul>
+				<li>Cranks</li>
+				<li>Levers</li>
+				<li>Pushpull</li>
+			</ul>
+			<h3>Traversal</h3>
+			<p>Traversal, unlike manipulations, are not always driven off a button input, and can also be activated simply by the player moving into (or onto) a surface. What's more, some traversal modes have their own combat graphs and moves.</p>
+			<ul>
+				<li>Plates</li>
+				<li>Walls</li>
+				<li>Edges</li>
+				<li>Poles</li>
+				<li>Columns</li>
+			</ul>
+			
+			<h2>Experience</h2>
+			<p>The more you kill with {SpecialWeapon} the more the {OldGods} are pleased by your actions. When you have swam in enough blood, you will have earned the right to increase the power of {SpecialWeapon}.</p>
+			<p>The player can spend experience in any of the three forms, and each form has its own talent tree. As the player spends experience in a form, you can choose to add new strings to the combos, to add new combos, to increase it’s base powers, or to increase the potency of its special move.</p>
+			<p>Each tech tree is different, and the following is just a brief example. For more information see the experience document (@see: Experience), or the form documents (@see: Power Form, Speed Form, Range Form)</p>
+			<p>[UI Mock Up]</p>
+			<h3>Power Form</h3>
+			<ul>
+			<li>Level 0:</li>
+				<ul>
+					<li>Add one extra swing to weak combo</li>
+					<li>Defense increase while in Power form</li>
+				</ul>
+			<li>Level 1:</li>
+				<ul>
+					<li>Unlock Special move</li>
+					<li>Unlock heavy attack combo</li>
+				</ul>
+			<li>Level 2:</li>
+				<ul>
+					<li>Greater defense increase while in Power form</li>
+					<li>Boost special move</li>
+				</ul>
+			<li>Level 3:</li>
+				<ul><li>Ultimate special move</li></ul>
+			</ul>
+			<h1 id="cast">Cast</h1>
+			<p>This section covers all the features required to make the cast for {Game: the Verbing Noun}. The cast of an action adventure game must be designed to work well against and with the player, which means that their design is a function of the player’s mechanics. To this end, we use Roles to help break the cast up into categories based on the mechanics of the player. That is not all, though, as Roles will only give you a functionally distinct cast, not a visually distinct cast; for this reason, we also break them up into Classes.</p>
+			<p>We will start with a basic run down of the entire cast, then we will discuss the roles and classes.</p>
+			<h2>Run down</h2>
+			<ul>
+				<li>Thrall</li>
+				<ul>
+					<li>Thrall</li>
+					<li>Thrall Archer</li>
+					<li>Thrall Handler</li>
+					<li>Winter Thrall</li>
+					<li>Winter Archer</li>
+					<li>Winter Handler</li>
+				</ul>
+				<li>Gremlin</li>
+				<ul>
+					<li>Worker</li>
+					<li>Gear Head</li>
+					<li>Bomber</li>
+				</ul>
+				<li>Troll</li>
+				<ul>
+					<li>Forest</li>
+					<li>Mountain</li>
+					<li>3 Headed</li>
+				</ul>
+				<li>Golem</li>
+				<ul>
+					<li>Clay</li>
+					<li>Stone</li>
+					<li>Metal</li>
+				</ul>
+				<li>Winter Knight</li>
+				<li>Summer Knight</li>
+				<li>Revenant</li>
+				<li>Will O Wisp</li>
+				<li>Fairy</li>
+				<li>Imp</li>
+				<li>Ogre</li>
+			</ul>
+
+			<h2>Roles</h2>
+			<p>There are four roles: Emphasizers, Enforcers, Smashers and Challengers. Enforcers require the player to use a specific mechanic to defeat them; emphasizers do not require a specific mechanic, but are usually weak to one; smashers are weak, cheap, and easily dispatched; and challengers are strong, expensive, and difficult for the player to defeat.</p>
+			<p class="note">I started writing this section before I had finished designing the player. It is, however, almost impossible to do. It’s a sort of a chicken and egg problem: I need mechanics to define my roles, but my roles can also define my mechanics. I find it best to flip flop between the two jobs. Define some mechanics, then define some monsters. If I don’t like how the monsters are shaping up, I change the monsters, which then, in turn, redefines our mechanics. Back and forth ))<>((</p>
+			<h3>Emphasizers</h3>
+			<p>Most of our cast fall into this category, and they, by design, can be defeated any way that the player chooses. Sometimes, though, there are certain tricks that make taking them out easier. The following are some quick examples of tricks we use on the enemies to emphasize certain tactics and styles.</p>
+			<p>Revenant - speed - the revenant is a ghostly and immaterial enemy who, upon big hits, disappears; so the quick attacks of speed form keep them from disappearing and reappearing.</p>
+			<p>Golem - commitment - a golem is a construct that surrounds itself in a temporary shell, and, at its center, beats the heart, which is where it can be destroyed; so in order to damage a golem you must first crack away their shell, but if you stop doing damage, they will slowly reconstruct their shell. This design emphasizes commitment (not shifting focus between enemies, or dodging too much).</p>
+			<p>Bomber - range or commitment - when a bomber gets low enough in health, it will attempt to suicide by rushing the player and exploding. This enemy, therefore, gives the player two tricks: using range to keep them at bay, or knocking them down and not giving them a chance to use their suicide tactic. Again, we are simply emphasizing tactics, not enforcing anything on the player, so there can be, at times, more than one trick that works.</p>
+			<h3>Enforcers</h3>
+			<p>The three forms are the core of the combat system, and we want to teach the player the strengths or each, so we have 3 kinds of enforcer: one for each form.</p>
+			<ul>
+				<li>Speed Form: only speed form can damage winter foes, and attacks from other forms just cause them to momentarily disappear.</li>
+				<li>Power Form: only power form can damage foes wearing armor, and attacks from other forms just cause the player to play a parry reaction.</li>
+				<li>Range Form: this is the only ability which the player can use to attack across impassable gaps, so ranged enemies (like archers) enforce the range form.</li>
+			</ul>
+			<h3>Smashers</h3>
+			<p>Being easy to dispatch is only one quality of smashers, and there is more to fitting this roles than simply its challenge. Every game needs an enemy that you can provide in great numbers, which means that it must have a low impact across MANY fields: cheap animations, low poly, and low memory foot print, just to name a few. The game provides two such enemies</p>
+			<ul>			
+			<li>Will O Wisp - little more than a floating ball of light. It provides the lowest possible footprint. We can spawn these in great numbers, and even in places where the player does not expect there to be monsters.</li>
+			<li>Imps - these are a little more complicated than Wisps, and we do not spawn them in near the numbers that we would Wisps, but they are also simple in their function.</li>
+			</ul>
+			<h3>Challengers</h3>
+			<p>All bosses, by their vary nature, are challengers, but they are not the only ones. Being a challenger, much like being a smashers, is a definition that means more than simply being a really big, imposing monster. Most cast members employ a single trick; just enough to fool the player, but once you know the trick it does not fool you any more. A challenger, though, includes any monster that employs more than one trick.</p>
+			<h2>Classes</h2>
+			<p>Classes, unlike roles, are player independent definitions. It is simply a different lens we use to view the cast, and we do this to ensure a proper and even distribution of visuals and workload. There are 6 major classes: NPCs, Pests, Grunts, Captains, Generals, and Bosses.</p>
+			<h4>Pests</h4>
+			<p>These are the lowest level of enemy. They are small, and though their name implies they are annoying, they their intent is to be annoying. They are usually Smashers, but that does not always have to be the case. Generally, you will not find these members of the cast alone in an encounter, and they are used to supplement the gameplay of Grunts, Captains, and Generals. Note: this supplementary definition means they should be simple. No complicated tricks.</p>
+			<h4>Grunts</h4>
+			<p>These are the average jobbers of the cast. Your meat and potatoes. They will form the backbone of your combat encounters, which, being named something like grunt, implies simplicity, but be warned that these enemies will, in all likelyhood, be the most difficult to make and the most expensive. </p>
+			<p>When considering the workload of a cast member, be aware that you must consider not just the actions they perform (their attacks), but also the reactions they perform; being the most oft-used cast member means they need the highest level of fidelity to their reactions. If the player can do it, they will probably react to it, and this can, when not careful, balloon quickly. Always be aware that enemies that go into the grunt category are going to be dense, but that’s why we break things into categories.</p>
+			<h4>Captains</h4>
+			<p>Captains, like grunts, are fairly common enemies in your combat encounters, but where the grunts form the stock of your soup, the captains are the meat and potatoes. They will be the spikes in your average fight. Captains are usually similar in silhouette to grunts, but where they greatly differ is their function.</p>
+			<p>Captains require more effort to create (on the programmer, design, art side) than normal grunts, and they usually employ one of the more key “tricks” that we want our cast to have. The key is to recognize that the more Captains you have the more programming work you’ll have, generally, which is why we create this group.</p>
+			<h4>Generals</h4>
+			<p>The generals are the major flavors in your combat encounters. Generals, with very rare exceptions, are never paired with other generals, and for most encounters they act like mini bosses. Due to their challenge and rarity, you can get good mileage out of Generals in your combat encounters. Remember that one time you faced one Ogre? Now here’s two!</p>
+			<h4>Bosses</h4>
+			<p>Fairly self explanatory, but this category is used for all the bosses in the game. Frankly, if you think a boss is “just another enemy”, then you are making a grave mistake. Bosses, true action adventure bosses, are levels unto themselves, so do not make the mistakes of underestimating the workload you are creating by added one more boss. This category is very important.</p>
+			<h4>NPCs</h4>
+			<p>Last we have a special category for unique NPC models that we will need, if any. Every level usually makes use of NPCs to sell scenes, especially if you are doing an Intro encounter, and, unfortunately, we can sometimes lose sight of how much work we are inadvertently creating. This category makes sure we don’t forget that all those little one off characters take work.</p>
+		<h1 id="world">World</h1>
+		<div>
+			<p class="info">Here we discuss the basic make up of the world. Please note: this does not mean setting. This is about crafting the world, and what tools we need to make it.</p>
+			<p>Combat is a big part of this game, but it is only half of the picture. If we spent all of our time trapping the player in fight after fight they would quickly become desensitized to the experience, which is not what we want. Our goal is accomplishment, but defeating challenging enemies is only one of many solutions to this problem. A challenging traversal segment, followed by a vista revealing how far you have come is one way, and solving a difficult puzzle is another.</p>
+			<p>This section covers all of the tools needed to deliver these moments, which includes where we go, how we get there, how we look at it, and how we interact with it.</p>
+			<h2>Traversal</h2>
+			<p class="info">This section (and the following on interaction) are slight retreads of some information in the Player section; those, however, dealt with how the player activated or interacted with these modes, while this section is concerned with world function.</p>
+			<p>World traversal comes in many variates: some allow combat, some allow for fast traversal, and some allow transitions. The resulting table lists all traversals types and their various allowances. As this is merely an overview, if you wish detailed information please see the specific documentation for each mode.</p>
+			<table border="0" cellspacing="5" cellpadding="5">
+				<tr><th>Type</th>	<th>Combat</th>	<th>Fast</th>	<th>Transitions</th><th>Form</th></tr>
+				<tr><td>Wall</td>		<td>Yes</td>	<td>Yes</td>	<td>Yes</td>	<td>Speed</td></tr>
+				<tr><td>Ceiling</td> <td>Yes</td> 	<td>Yes</td>	<td>Yes</td>	<td>Power</td></tr>
+				<tr><td>Pole</td> 	<td>No</td> 	<td>No</td>	<td>No</td>		<td>Power</td></tr>
+				<tr><td>Grapple</td> <td>No</td>		<td>No</td>	<td>No</td>		<td>Range</td></tr>
+				<tr><td>Ledge</td> 	<td>No</td>		<td>No</td>	<td>Yes</td>	<td>Power</td></tr>
+				<tr><td>Zipline</td> <td>No</td>		<td>No</td>	<td>No</td>		<td>Power</td></tr>
+				<tr><td>Ladder</td> 	<td>No</td>		<td>Yes</td>	<td>No</td>		<td>Power</td></tr>
+			</table>
+			<p>Combat - does this mode allow for combat moves</p>
+			<p>Fast Traversal - does this mode allow the player to interactively alter his navigation (mash jump to move faster)</p>
+			<p>Transitions - does this mode allow the player to transition from one type to another (wall to ceiling; wall to ledge hang)</p>
+			<p>Require Form - what form do we force the player into (and also require) for this mode. The default is speed, which means they can always use it. If the player does not have the requisite form, then they cannot use that mode of traversal</p>
+			<h2>Dynamic Objects</h2>
+			<p>Dynamic objects, both interactive and destructible, are an integral component in crafting a world with vitality. If everything is static, then the world feels dead, and a game where you can’t interact with things isn’t much of a game; for this reason we create props: items with which the player can interact. Some require the player to activate them with a button, some are activated on touch, while others require the player to do damage. The particulars of each type of prop is covered in more detail in their specific documents.</p>
+			<ul>
+			<li><strong>Pressure Plate</strong> - stand on it to activate something, or to keep a door open. When combined with pushable boxes makes the simplest of puzzles.</li>
+			<li><strong>Levers</strong> - on and off switches. Sometimes they are timer based and will automatically flip back to the off position.</li>
+			<li><strong>Crank</strong> - its rotation can be used to drive properties on other dynamics, such as the rotation of a lightbeam or the height of a drawbridge.</li>
+			<li><strong>Hero Moments</strong> - major hero moments (HMs) are big, complicated sequences, such as pushing a column over. They usually involve specific button inputs, such as mashing or holding a button.</li>
+			<li><strong>Chests</strong> - hiding all the goodies. </li>
+			<li><strong>Pushable Box</strong> - pushing and pulling a box. The most basic of puzzle objects.</li>
+			<li><strong>Destructibles</strong> - from small items that are destroyed in one hit, up to large objects that have health and multiple states.</li>
+			</ul>
+			<h2>Camera</h2>
+			<p>The game uses a fixed camera system. The best kind of camera is one that the player doesn’t even know is there; one that never loses the player, one that guides the player, and one that best showcases the action. A system like this, when properly constructed, belies its complexity, which is a difficult task. The ultimate goal is a camera that simply ceases to exist, and that requires a little more than sticking the camera somewhere in the world and pointing it at the player. This requires a collection of camera types, and the exposure of several properties that can be tweaked by the designers.</p>
+			<p>This will briefly cover the types of cameras used in {Game: the Verbing Noun}, and for more information please consult the camera document (@see: Camera).</p>
+			<h4>Types</h4>
+			<ul>
+				<li>
+					Volume
+					<ul>			
+						<li>Fixed</li>
+						<li>Vector</li>
+						<li>Boom</li>
+						<li>Spine</li>
+						<li>Position Blend</li>
+					</ul>
+				</li>
+				<li>
+					Volume Transition
+					<ul>			
+						<li>Position Blend</li>
+						<li>Time Blend</li>
+					</ul>
+				</li>
+			</ul>
+			<h2>Spawning</h2>
+			<p>Proper understanding and implementation of combat spawning is an oft-missed, oft-ignored step in most combat systems, but it adds necessary vitality and flow to the encounters. The end result we require -- something spawns into the world -- is simple, but what triggers that result and, more importantly, knowing when to to trigger that result is where the complexity lies.</p>
+			<p>The Spawning system is separated into four layers: encounters, waves, spawners, and agents. An encounter is made up of at least one wave, each wave is made up of at least one spawner, and each spawner is linked to exactly one agent. The following is a brief overview of the system, and for more detail please see the spawning document (@see: Spawning).</p>
+			<p class="info">It seems, at first, to be excessive. “Why have so many layers? You’re just spawning some dudes.” Yes and no. It is so much more than simply picking a few enemies and making them show up! How many are spawned, what triggers them spawning, where do they spawn, should anything happen when you are done, are any other events associated with monsters spawning or dying, etc.</p>
+			<h4>Agent</h4>
+			<p>Here at the lowest level we have the cast member that we want to spawn into the encounter. In addition to defining exactly which cast member to spawn, we set any kind of level or encounter specific information, such as specific trigger conditions, or unique animations that we wish to play when they spawn. This is not, however, an opportunity to alter base stats on the monster you are spawning. That is global data, and has no place being altered on a level by level basis! Health values, exp rewards, and other values are constantly in flux as the game comes into tighter balance, and the last thing you want is to find that some level is overriding the most up to date settings.</p>
+			<h4>Spawner</h4>
+			<p>A spawner controls the actual spawning (duh) of your agents, but that is not all it does. It also controls how many agents you spawn, how quickly they spawn, and where they spawn. A spawner is controlled by its wave. Meaning, when a wave is activated, all its spawners are activated; when a wave is completed, all its spawners are completed (even spawners set to spawn infinitely). Each spawner has several values you can set to control the flow, such as setting a time delay before starting to spawn, or setting how quickly to spawn.</p>
+			<p>Another key feature of the spawner is controlling where to spawn. The player is not static, so our spawn locations are not static either. Activating and deactivating spawning regions based on their proximity to the player is critical.</p>
+			<h4>Waves</h4>
+			<p>Waves are one step down from the encounter, and they are a collection of spawners. Waves, like encounters, are little more than containers, but their major role is to control the start, end, enabling and disabling of spawners. Then to report back to the encounter when it has completed.</p>
+			<p>You might ask, “How do I choose between adding a new spawner to a current wave or creating a new wave.” The answer is player action. If it requires action from the player---moving somewhere, opening something, killing something, destroying something---then it is a wave.</p>
+			<h4>Encounter</h4>
+			<p>Last we have the big daddy, the encounter. It houses all global information about the fight, such as the event to start the encounter, the event to send when complete, and events for enabling or disabling the encounter. The encounter is made up of at least one wave, but it has only limited control over waves. It is simply a container. Having a single container for all waves is advantageous when you need to disable an encounter regardless of its current state, like when a cutscene begins; or, possibly, when the player backtracks a great distance, and you do not want all those agents continually updating. </p>
+			<p>The only real interaction between waves and the encounter is that all waves update the encounter when they are complete (the conditions for completion are in the wave). This is done so that the designer has an easy way of reacting to the completion of the entire encounter.</p>
+			<p class="toc"><a href="#top">top &#x2191;</a></p>
+		</div>
+
+	</div>
+</div>
+</body>
+</html>

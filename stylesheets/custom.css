@@ -1,0 +1,38 @@
+p {
+	text-align: justify;
+}
+
+.toc {
+	width: 100%;
+	text-align: right;
+	text-decoration: underline;
+}
+
+tag {
+	font-weight: bold;
+	color:#8a1f11;
+}
+
+h1 {
+	border-bottom: 1px solid #999;
+	padding-bottom: 0.2em;
+	margin-top: 1.5em;
+}
+
+h2 {
+	margin-top: 1.0em;
+	margin-bottom: 0.2em;
+	font-weight: bold;
+}
+
+h3 {
+	margin-top: 1.2em;
+	margin-bottom: 0.2em;
+	font-style: italic;
+}
+
+h4 {
+	margin-bottom: 0px;
+	text-decoration: underline;
+}
+
