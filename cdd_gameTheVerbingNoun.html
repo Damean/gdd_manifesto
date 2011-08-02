@@ -27,8 +27,8 @@
 <body>
 <h1 id="top">Conceptual Design Document</h1>
 <div class="container">
-	<div class="span-20 prepend-2 append-2 last">
-		<h4>Table of Contents</h4>
+	<div class="span-4 pull-2 border">
+		<p>Table of Contents</p>
 		<ul>
 			<li><a href="#overview">Overview</a></li>
 			<li><a href="#core">Core</a></li>
@@ -38,7 +38,8 @@
 			<li><a href="#cast">Cast</a></li>
 			<li><a href="#world">World</a></li>
 		</ul>
-		
+	</div>
+	<div class="span-20 append-2 last">
 		<h1 id="overview">Overview</h1>
 		<div>
 			<p class="info">The basic overview of the project. Sell me on the idea in as few a words as possible.</p>
@@ -46,7 +47,6 @@
 			<p class="toc"><a href="#top">top &#x2191;</a></p>
 		</div>
 		<h1 id="setting">Setting</h1>
-			<p class="pull-2 info" onclick="toggle_visibility('setting_info');">+</p>
 			<p id="setting_info" class="info">The basic setting of the project. Paint me a picture of the world. Where are we going? You are not writing the next Song of Ice and Fire; just get the reader interested.</p>
 			<p>This game takes place in {FamousSetting}. Specifically, during the age of {FamousHero}. The kingdoms of the world are clearly defined. The kingdoms of the {World} - {Culture01}, {Culture02}, {Culture03}, {Culture04}, {Culture05}  - dominate the Western world, while the lesser known and barbarous people of the East remain locked in darkness.</p>
 			<p>The {FamousSetting} peoples are the possessors of a virile civilization, whose most powerful kingdom is {Culture01}, though others vie with it in strength and splendor. {Culture02} and {Culture03} are locked in a struggle in the south, while {Culture04} lays claim to the north and does its best to stay out of the affairs of everyone else.</p>
@@ -57,9 +57,11 @@
 			<p class="info">This short little section is one of the most important pieces of your entire document. This is why you are here. These features / ideas / mechanics / whatever. Everyone on the team must know what they are, because every part of the game exists to showcase these pillars. If you can imagine the game without something (be honest) then it is not Core to the experience. Think hard. Be honest. But do not freak out, as I can guarantee you will be wrong, more than once. Being wrong is ok; not caring or even considering the core of your experience is NOT ok.</p>
 			<p>The core of a game comprises pillars. Each pillar is a stated goal for the game, which means it can be a single mechanic, or it can be several mechanics, as long as they all focus on achieving that pillar’s goal. </p>
 			<p>Two things separate the good games from the great games. First, providing challenging and tight moment to moment scenarios. Second, crafting a believable world and allowing the player to not just witness the world but become a part of that world. Our first two pillars deal with the moment to moment, and our last pillar deals with the big picture.</p>
-			<p>Form Switching Combat - our main pillar is that of our player’s weapon, {SpecialWeapon}. We can cut traversals, we can cut interactions, we can cut cinematic, but we cannot cut this. Our goal is a 3 style combat tree that allows free form transitions, while not overwhelming them with choice and not underwhelming them with function. Most style (or weapon) switching combat systems leave the player asking “why”, and for good reason. We shall escape this by creating enemies that enforce certain forms.</p>
-			<p>Form World Interaction - the player must face challenges that do not involve combat. Otherwise, because there is marginal utility and diminishing returns on beating up AI opponents, the player will become bored. That is not all, though; as we stated above, the goal of the styles is to enforce the meaning of three styles, so we want to achieve this through our world interactions as well. Each style, in some way, shall be able to interact with the world in some way, which shall be incorporated into the level designs.</p>
-			<p>Forms As History - this weapon is not just a weapon, it is the fused souls of long dead generals, and the the player is not simply using a weapon that changes shape, he is merging with their spirits and becoming them. This shall be sold in the look of the forms, in the look of the weapons, in random moment to moment dialog, and in major cutscences.</p>
+			<dl>
+				<dt>Form Switching Combat<dd>Our main pillar is that of our player’s weapon, {SpecialWeapon}. We can cut traversals, we can cut interactions, we can cut cinematic, but we cannot cut this. Our goal is a 3 style combat tree that allows free form transitions, while not overwhelming them with choice and not underwhelming them with function. Most style (or weapon) switching combat systems leave the player asking “why”, and for good reason. We shall escape this by creating enemies that enforce certain forms.</p>
+				<dt>Form World Interaction<dd>The player must face challenges that do not involve combat. Otherwise, because there is marginal utility and diminishing returns on beating up AI opponents, the player will become bored. That is not all, though; as we stated above, the goal of the combat system is to enforce the meaning of the three styles, and we want to achieve this through our world interactions as well. Each style, in some way, shall be able to interact with the world.</p>
+				<dt>Forms As History<dd>This weapon is not just a weapon, it is the fused souls of long dead generals, and the the player is not simply using a weapon that changes shape, he is merging with their spirits and becoming them. This shall be sold in the look of the forms, in the look of the weapons, in random moment to moment dialog, and in major cutscences.</p>
+			</dl>
 			<p class="toc"><a href="#top">top &#x2191;</a></p>
 		<h1 id="controls">Controls</h1>
 			<p class="info">The basic controls. Kept brief. This provides a quick roadmap for the rest of the conversation. It's like looking up at the reader and going, "Hey, yes this is a game, and yes I've though it through"</p>
