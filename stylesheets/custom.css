@@ -7,6 +7,7 @@ div#header {
 	padding-top: 0px;
 	margin-top: 10px;
 	margin-bottom: 0px;
+	margin-left: 10px;
 }
 
 div#navigation {
@@ -133,6 +134,7 @@ table.main_index tbody th {
 }
 
 table.main_index tbody td {
+	vertical-align: top;
 	background-color: #FFF;
 	border: 1px solid #999;
 	padding-top: 20px;
@@ -144,4 +146,40 @@ table.main_index tbody th.spanner, table.main_index tbody td.spanner {
 	background-color: #FFF;
 	width: auto;
 	border: none;
+}
+
+table.bestiary {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: auto;
+}
+
+table.bestiary caption {
+	text-align: center;
+	background-color: #999;
+	border: 2px solid #000;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+table.bestiary tbody th {
+	width: auto;
+	background-color: #FFF;
+	border: 1px solid #999;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+table.bestiary tbody td {
+	width: 300px;
+	vertical-align: top;
+	background-color: #FFF;
+	border: 1px solid #999;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 0px;
+}
+
+table.bestiary img {
+	height: 240px;
+	width: 160px;
 }
