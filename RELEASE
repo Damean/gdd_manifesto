@@ -6,3 +6,9 @@ Release 0.2
 
 Release 0.3
    Added a cast file. Still first pass. Also added lots of new images for the cast file.
+
+Release 0.4
+   Added temp files for every enemy
+   Added anim file and anim excel file for thrall
+   Added an index table of contents in the root
+   Updated the formatting for the description and animation views (on Thrall)
