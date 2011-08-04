@@ -1,8 +1,64 @@
+div#header {
+	width: 100%;
+}
+
+#header h1 {
+	border-bottom: 0px solid #999;
+	padding-top: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+div#navigation {
+	height: 1.8em;
+	width: 100%;
+	background-color: #DDD;
+	border: 1px solid #999;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#navigation ul {
+	list-style: none;
+}
+
+#navigation li {
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline;
+}
+
+div#container {
+	width: 1000px;
+}
+
+div#menu {
+	width: 150px;
+	margin: 20px;
+	float: left;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+div#content {
+	width: 700px;
+	float: left;
+	border-left: 1px solid #999;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+div#table_of_contents {
+	padding-left: 60px;
+}
+
 p {
 	text-align: justify;
 }
 
-.toc {
+.top {
 	width: 100%;
 	text-align: right;
 	text-decoration: underline;
@@ -51,4 +107,41 @@ table.castinfo th {
 table.castinfo td {
 	width: 50%;
 	border-bottom: 1px solid #999;
+}
+
+table.main_index {
+	padding-top: 50px;
+	width: 800px;
+}
+
+table.main_index caption {
+	background-color: #FFF;
+	font-size: 2em;
+	padding-bottom: 20px;
+}
+
+table.main_index tbody th, table.main_index tbody td {
+	width: 48%;
+}
+
+table.main_index tbody th {
+	text-align: center;
+	background-color: #999;
+	border: 2px solid #000;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+table.main_index tbody td {
+	background-color: #FFF;
+	border: 1px solid #999;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+table.main_index tbody th.spanner, table.main_index tbody td.spanner {
+	background-color: #FFF;
+	width: auto;
+	border: none;
 }

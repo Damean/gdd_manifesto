@@ -25,10 +25,15 @@
 	</script>
 </head>
 <body>
-<h1 id="top">Conceptual Design Document</h1>
-<div class="container">
-	<div class="span-4 pull-2 border">
-		<p>Table of Contents</p>
+<div id="header">
+	<h1 id="top">Conceptual Design Document</h1>	
+</div>
+<div id="navigation">
+	
+</div>
+<div id="container">
+	<div id="menu">
+		<h4>Table of Contents</h4>
 		<ul>
 			<li><a href="#overview">Overview</a></li>
 			<li><a href="#core">Core</a></li>
@@ -37,14 +42,14 @@
 			<li><a href="#player">Player</a></li>
 			<li><a href="#cast">Cast</a></li>
 			<li><a href="#world">World</a></li>
-		</ul>
+		</ul>	
 	</div>
-	<div class="span-20 append-2 last">
+	<div id="content">
 		<h1 id="overview">Overview</h1>
 		<div>
 			<p class="info">The basic overview of the project. Sell me on the idea in as few a words as possible.</p>
 			<p><tag>{Game: the Verbing Noun}</tag> is a single player action adventure game set in {FamousSetting}. The game takes the visceral action of games such as {Some Action Game}, mixes it with style switching from games such as {Some Other Action Game}, and finishes it with {buzzword} from modern games such as {Popular Franchise}. All of this is mixed with both world class art and tech to create a game that is as brutal as it is beautiful.</p>
-			<p class="toc"><a href="#top">top &#x2191;</a></p>
+			<p class="top"><a href="#top">top &#x2191;</a></p>
 		</div>
 		<h1 id="setting">Setting</h1>
 			<p id="setting_info" class="info">The basic setting of the project. Paint me a picture of the world. Where are we going? You are not writing the next Song of Ice and Fire; just get the reader interested.</p>
@@ -52,7 +57,7 @@
 			<p>The {FamousSetting} peoples are the possessors of a virile civilization, whose most powerful kingdom is {Culture01}, though others vie with it in strength and splendor. {Culture02} and {Culture03} are locked in a struggle in the south, while {Culture04} lays claim to the north and does its best to stay out of the affairs of everyone else.</p>
 			<p>Many years ago {SomethingBadHappened}, but everyone promptly forgot about it, because that’s what people do. I’m sure things are fine, though. No really. I’m sure nothing at all could possibly go wrong. {AncientEvil} was definitely destroyed, and it won’t be bothering anyone ever again.</p>
 			<p>Or not...</p>
-			<p class="toc"><a href="#top">top &#x2191;</a></p>
+			<p class="top"><a href="#top">top &#x2191;</a></p>
 		<h1 id="core">Core</h1>
 			<p class="info">This short little section is one of the most important pieces of your entire document. This is why you are here. These features / ideas / mechanics / whatever. Everyone on the team must know what they are, because every part of the game exists to showcase these pillars. If you can imagine the game without something (be honest) then it is not Core to the experience. Think hard. Be honest. But do not freak out, as I can guarantee you will be wrong, more than once. Being wrong is ok; not caring or even considering the core of your experience is NOT ok.</p>
 			<p>The core of a game comprises pillars. Each pillar is a stated goal for the game, which means it can be a single mechanic, or it can be several mechanics, as long as they all focus on achieving that pillar’s goal. </p>
@@ -62,11 +67,11 @@
 				<dt>Form World Interaction<dd>The player must face challenges that do not involve combat. Otherwise, because there is marginal utility and diminishing returns on beating up AI opponents, the player will become bored. That is not all, though; as we stated above, the goal of the combat system is to enforce the meaning of the three styles, and we want to achieve this through our world interactions as well. Each style, in some way, shall be able to interact with the world.</p>
 				<dt>Forms As History<dd>This weapon is not just a weapon, it is the fused souls of long dead generals, and the the player is not simply using a weapon that changes shape, he is merging with their spirits and becoming them. This shall be sold in the look of the forms, in the look of the weapons, in random moment to moment dialog, and in major cutscences.</p>
 			</dl>
-			<p class="toc"><a href="#top">top &#x2191;</a></p>
+			<p class="top"><a href="#top">top &#x2191;</a></p>
 		<h1 id="controls">Controls</h1>
 			<p class="info">The basic controls. Kept brief. This provides a quick roadmap for the rest of the conversation. It's like looking up at the reader and going, "Hey, yes this is a game, and yes I've though it through"</p>
 			<p style="text-align: center;"><img src="images/info_big.png" /></p>
-			<p class="toc"><a href="#top">top &#x2191;</a></p>
+			<p class="top"><a href="#top">top &#x2191;</a></p>
 		<h1 id="player">Player</h1>
 			<p class="info">A brief description of the tools we provide the player; paint in broad strokes, not detail</p>
 			<p>The player is comprised of 3 major systems: Combat, Interaction, and Experience. The primary goal of this game, of any action adventure game, is to provide the player with a feeling of accomplishment. This accomplishment emerges from the conflict between the environment (the world and cast) and the player; the gameplay, then, involves letting the player resolve this conflict through the tools we provide to the player. These are his tools.</p>
@@ -101,7 +106,7 @@
 			</ul>
 			<p>As stated the player is free to do this at any time, even during combos or after activating one of the three special powers. This means that you can be in Speed form, activate its special power (time slow), immediately switch to Power form, and then due to the time slowing effect, mitigate the great weakness of Power which is the lack of speed.</p>
 			<p>That is not all, though, as you can also perform Combo Transitions, by switching forms during a combo. The specifics of this is discussed in further detail in the Soul Forms document (@see: Forms).</p>
-			
+
 			<h2>Interaction</h2>
 			<p>Challenging the mind of the player is just as important as challenging their fingers. Puzzles, either alone or mixed with combat, are one of the great ways to break up the monotonous flow of the game. But puzzles are only puzzles when they require action from the player, and it is only possible when the player is able to interact with the world. There are two major types of interactions with the world: Manipulation and Traversal.</p>
 			<h3>Manipulation</h3>
@@ -120,7 +125,7 @@
 				<li>Poles</li>
 				<li>Columns</li>
 			</ul>
-			
+
 			<h2>Experience</h2>
 			<p>The more you kill with {SpecialWeapon} the more the {OldGods} are pleased by your actions. When you have swam in enough blood, you will have earned the right to increase the power of {SpecialWeapon}.</p>
 			<p>The player can spend experience in any of the three forms, and each form has its own talent tree. As the player spends experience in a form, you can choose to add new strings to the combos, to add new combos, to increase it’s base powers, or to increase the potency of its special move.</p>
@@ -297,10 +302,10 @@
 			<h4>Encounter</h4>
 			<p>Last we have the big daddy, the encounter. It houses all global information about the fight, such as the event to start the encounter, the event to send when complete, and events for enabling or disabling the encounter. The encounter is made up of at least one wave, but it has only limited control over waves. It is simply a container. Having a single container for all waves is advantageous when you need to disable an encounter regardless of its current state, like when a cutscene begins; or, possibly, when the player backtracks a great distance, and you do not want all those agents continually updating. </p>
 			<p>The only real interaction between waves and the encounter is that all waves update the encounter when they are complete (the conditions for completion are in the wave). This is done so that the designer has an easy way of reacting to the completion of the entire encounter.</p>
-			<p class="toc"><a href="#top">top &#x2191;</a></p>
-		</div>
-
+			<p class="top"><a href="#top">top &#x2191;</a></p>
+		</div>	
 	</div>
+	
 </div>
 </body>
 </html>
