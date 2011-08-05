@@ -16,4 +16,9 @@ Release 0.4
 Release 0.5
    Added index and fleshed it out.
    Changed the name of the "game" folder to the "world" folder so it matched the other documentation.
-   Added a bestiary and filled it out. (Including the excel file"
+   Added a bestiary and filled it out. (Including the excel file)
+
+Release 0.6
+   Made some tweaks to the bestiary layout
+   Added the feature file for the thrall so it matches the lever
+   Added excel links to the files that are shared in multiple styles.
