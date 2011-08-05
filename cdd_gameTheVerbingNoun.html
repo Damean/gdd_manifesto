@@ -26,7 +26,7 @@
 </head>
 <body>
 <div id="header">
-	<h1 id="top">Conceptual Design Document</h1>	
+	<h1 id="top"><a href="index.html">Conceptual Design Document</a></h1>
 </div>
 <div id="navigation">
 	
@@ -130,7 +130,7 @@
 			<p>The more you kill with {SpecialWeapon} the more the {OldGods} are pleased by your actions. When you have swam in enough blood, you will have earned the right to increase the power of {SpecialWeapon}.</p>
 			<p>The player can spend experience in any of the three forms, and each form has its own talent tree. As the player spends experience in a form, you can choose to add new strings to the combos, to add new combos, to increase it’s base powers, or to increase the potency of its special move.</p>
 			<p>Each tech tree is different, and the following is just a brief example. For more information see the experience document (@see: Experience), or the form documents (@see: Power Form, Speed Form, Range Form)</p>
-			<p>[UI Mock Up]</p>
+			<p style="text-align: center;"><img src="images/info_big.png" /></p>
 			<h3>Power Form</h3>
 			<ul>
 			<li>Level 0:</li>
@@ -152,6 +152,7 @@
 				<ul><li>Ultimate special move</li></ul>
 			</ul>
 			<h1 id="cast">Cast</h1>
+			<p class="info">This contains all of the documentation about the characters and creatures in the game. Everyone you meet and everything you fight. Do not go into incredible detail for every creature. Just lay it out so people get a good idea.</p>
 			<p>This section covers all the features required to make the cast for {Game: the Verbing Noun}. The cast of an action adventure game must be designed to work well against and with the player, which means that their design is a function of the player’s mechanics. To this end, we use Roles to help break the cast up into categories based on the mechanics of the player. That is not all, though, as Roles will only give you a functionally distinct cast, not a visually distinct cast; for this reason, we also break them up into Classes.</p>
 			<p>We will start with a basic run down of the entire cast, then we will discuss the roles and classes.</p>
 			<h2>Run down</h2>
@@ -194,7 +195,7 @@
 
 			<h2>Roles</h2>
 			<p>There are four roles: Emphasizers, Enforcers, Smashers and Challengers. Enforcers require the player to use a specific mechanic to defeat them; emphasizers do not require a specific mechanic, but are usually weak to one; smashers are weak, cheap, and easily dispatched; and challengers are strong, expensive, and difficult for the player to defeat.</p>
-			<p class="note">I started writing this section before I had finished designing the player. It is, however, almost impossible to do. It’s a sort of a chicken and egg problem: I need mechanics to define my roles, but my roles can also define my mechanics. I find it best to flip flop between the two jobs. Define some mechanics, then define some monsters. If I don’t like how the monsters are shaping up, I change the monsters, which then, in turn, redefines our mechanics. Back and forth ))<>((</p>
+			<p class="info">I started writing this section before I had finished designing the player. It is, however, almost impossible to do. It’s a sort of a chicken and egg problem: I need mechanics to define my roles, but my roles can also define my mechanics. I find it best to flip flop between the two jobs. Define some mechanics, then define some monsters. If I don’t like how the monsters are shaping up, I change the monsters, which then, in turn, redefines our mechanics. Back and forth</p>
 			<h3>Emphasizers</h3>
 			<p>Most of our cast fall into this category, and they, by design, can be defeated any way that the player chooses. Sometimes, though, there are certain tricks that make taking them out easier. The following are some quick examples of tricks we use on the enemies to emphasize certain tactics and styles.</p>
 			<p>Revenant - speed - the revenant is a ghostly and immaterial enemy who, upon big hits, disappears; so the quick attacks of speed form keep them from disappearing and reappearing.</p>
@@ -216,6 +217,7 @@
 			<h3>Challengers</h3>
 			<p>All bosses, by their vary nature, are challengers, but they are not the only ones. Being a challenger, much like being a smashers, is a definition that means more than simply being a really big, imposing monster. Most cast members employ a single trick; just enough to fool the player, but once you know the trick it does not fool you any more. A challenger, though, includes any monster that employs more than one trick.</p>
 			<h2>Classes</h2>
+			<p class="info">I have 6 classes, but that certainly does not have to be a hard rule. It really just depends on the kind of game, and the number of enemies in your cast.</p>
 			<p>Classes, unlike roles, are player independent definitions. It is simply a different lens we use to view the cast, and we do this to ensure a proper and even distribution of visuals and workload. There are 6 major classes: NPCs, Pests, Grunts, Captains, Generals, and Bosses.</p>
 			<h4>Pests</h4>
 			<p>These are the lowest level of enemy. They are small, and though their name implies they are annoying, they their intent is to be annoying. They are usually Smashers, but that does not always have to be the case. Generally, you will not find these members of the cast alone in an encounter, and they are used to supplement the gameplay of Grunts, Captains, and Generals. Note: this supplementary definition means they should be simple. No complicated tricks.</p>
@@ -249,10 +251,12 @@
 				<tr><td>Zipline</td> <td>No</td>		<td>No</td>	<td>No</td>		<td>Power</td></tr>
 				<tr><td>Ladder</td> 	<td>No</td>		<td>Yes</td>	<td>No</td>		<td>Power</td></tr>
 			</table>
-			<p>Combat - does this mode allow for combat moves</p>
-			<p>Fast Traversal - does this mode allow the player to interactively alter his navigation (mash jump to move faster)</p>
-			<p>Transitions - does this mode allow the player to transition from one type to another (wall to ceiling; wall to ledge hang)</p>
-			<p>Require Form - what form do we force the player into (and also require) for this mode. The default is speed, which means they can always use it. If the player does not have the requisite form, then they cannot use that mode of traversal</p>
+			<dl>
+				<dt>Combat</dt> <dd>- does this mode allow for combat moves</dd>
+				<dt>Fast Traversal</dt> <dd>- does this mode allow the player to interactively alter his navigation (mash jump to move faster)</dd>
+				<dt>Transitions</dt> <dd>- does this mode allow the player to transition from one type to another (wall to ceiling; wall to ledge hang)</dd>
+				<dt>Require Form</dt> <dd>- what form do we force the player into (and also require) for this mode. The default is speed, which means they can always use it. If the player does not have the requisite form, then they cannot use that mode of traversal</dd>
+			</dl>
 			<h2>Dynamic Objects</h2>
 			<p>Dynamic objects, both interactive and destructible, are an integral component in crafting a world with vitality. If everything is static, then the world feels dead, and a game where you can’t interact with things isn’t much of a game; for this reason we create props: items with which the player can interact. Some require the player to activate them with a button, some are activated on touch, while others require the player to do damage. The particulars of each type of prop is covered in more detail in their specific documents.</p>
 			<ul>
